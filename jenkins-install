@@ -1,0 +1,4 @@
+FROM jenkins/jenkins:lts
+MAINTAINER PRASHANT
+EXPOSE 8084
+ENV jenkins_path jenkins_dir
