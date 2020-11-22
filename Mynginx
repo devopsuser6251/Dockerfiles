@@ -1,0 +1,6 @@
+FROM centos
+MAINTAINER DEVOPS
+RUN yum install -y nginx 
+ADD index.html /var/www/html/index.html
+CMD 'service nginx start'
+EXPOSE 80	
